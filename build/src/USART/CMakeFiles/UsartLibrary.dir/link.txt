@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc libUsartLibrary.a CMakeFiles/UsartLibrary.dir/usart.c.o
+/usr/bin/avr-ranlib libUsartLibrary.a
