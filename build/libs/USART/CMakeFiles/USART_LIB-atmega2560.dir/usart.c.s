@@ -13,7 +13,7 @@ __zero_reg__ = 1
 	.type	USART0_init, @function
 USART0_init:
 .LFB1:
-	.file 1 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+	.file 1 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
 	.loc 1 5 1
 	.cfi_startproc
 /* prologue: function */
@@ -386,8 +386,6 @@ USART0_transmit:
 	.string	"data"
 .LASF1:
 	.string	"unsigned char"
-.LASF10:
-	.string	"/home/hellscoffe/Develop/avr-programming/build/libs/USART"
 .LASF4:
 	.string	"long unsigned int"
 .LASF14:
@@ -398,12 +396,14 @@ USART0_transmit:
 	.string	"long long unsigned int"
 .LASF11:
 	.string	"uint8_t"
-.LASF9:
-	.string	"/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+.LASF10:
+	.string	"/home/hellscoffe/Develop/AVR_Programming/build/libs/USART"
 .LASF5:
 	.string	"long long int"
 .LASF7:
 	.string	"char"
+.LASF9:
+	.string	"/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
 .LASF3:
 	.string	"long int"
 .LASF15:

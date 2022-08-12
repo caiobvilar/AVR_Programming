@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/avr-programming
+CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/AVR_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hellscoffe/Develop/avr-programming/build
+CMAKE_BINARY_DIR = /home/hellscoffe/Develop/AVR_Programming/build
 
 # Utility rule file for disassemble_blink.
 
@@ -82,6 +82,6 @@ CMakeFiles/disassemble_blink.dir/clean:
 .PHONY : CMakeFiles/disassemble_blink.dir/clean
 
 CMakeFiles/disassemble_blink.dir/depend:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/avr-programming /home/hellscoffe/Develop/avr-programming /home/hellscoffe/Develop/avr-programming/build /home/hellscoffe/Develop/avr-programming/build /home/hellscoffe/Develop/avr-programming/build/CMakeFiles/disassemble_blink.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/AVR_Programming /home/hellscoffe/Develop/AVR_Programming /home/hellscoffe/Develop/AVR_Programming/build /home/hellscoffe/Develop/AVR_Programming/build /home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles/disassemble_blink.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/disassemble_blink.dir/depend
 

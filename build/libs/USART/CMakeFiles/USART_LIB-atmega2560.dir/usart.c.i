@@ -1,9 +1,9 @@
-# 0 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
-# 1 "/home/hellscoffe/Develop/avr-programming/build/libs/USART//"
+# 0 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
+# 1 "/home/hellscoffe/Develop/AVR_Programming/build/libs/USART//"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
-# 1 "/home/hellscoffe/Develop/avr-programming/libs/USART/include/usart.h" 1
+# 1 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
+# 1 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/include/usart.h" 1
 
 
 
@@ -230,7 +230,7 @@ typedef struct
 
 # 1 "/usr/avr/include/avr/lock.h" 1 3
 # 642 "/usr/avr/include/avr/io.h" 2 3
-# 8 "/home/hellscoffe/Develop/avr-programming/libs/USART/include/usart.h" 2
+# 8 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/include/usart.h" 2
 # 1 "/usr/avr/include/stdio.h" 1 3
 # 45 "/usr/avr/include/stdio.h" 3
 # 1 "/usr/lib/gcc/avr/11.2.0/include/stdarg.h" 1 3 4
@@ -508,62 +508,62 @@ extern void setbuf(FILE *stream, char *buf);
 extern int setvbuf(FILE *stream, char *buf, int mode, size_t size);
 extern FILE *tmpfile(void);
 extern char *tmpnam (char *s);
-# 9 "/home/hellscoffe/Develop/avr-programming/libs/USART/include/usart.h" 2
+# 9 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/include/usart.h" 2
 
 
-# 10 "/home/hellscoffe/Develop/avr-programming/libs/USART/include/usart.h"
+# 10 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/include/usart.h"
 void USART0_init(void);
 uint8_t USART0_receive(void);
 void USART0_transmit(uint8_t data);
-# 2 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 2
+# 2 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 2
 
 
 void USART0_init(void)
 {
 
  
-# 7 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 7 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
 (*(volatile uint8_t *)(0xC5)) 
-# 7 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 7 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
        = (uint8_t) (103>>8);
 
 
  
-# 10 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 10 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
 (*(volatile uint8_t *)(0xC4)) 
-# 10 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 10 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
        = (unsigned char) 103;
 
  
-# 12 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 12 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
 (*(volatile uint8_t *)(0XC1)) 
-# 12 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 12 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
        = ((1<<
-# 12 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 12 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
               4
-# 12 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 12 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
                    ) | (1<<
-# 12 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 12 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
                            3
-# 12 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 12 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
                                 ));
 
  
-# 14 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 14 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
 (*(volatile uint8_t *)(0xC2)) 
-# 14 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 14 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
        = (1<<
-# 14 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 14 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
              3
-# 14 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 14 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
                   ) | (1<<
-# 14 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 14 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
                           2
-# 14 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 14 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
                                 ) | (1<<
-# 14 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 14 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
                                         1
-# 14 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 14 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
                                               );
 }
 
@@ -572,37 +572,37 @@ uint8_t USART0_receive(void)
 
 
  while(!(
-# 21 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 21 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
         (*(volatile uint8_t *)(0xC0)) 
-# 21 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 21 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
                & (1<<
-# 21 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 21 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
                      7
-# 21 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 21 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
                          )));
 
  return 
-# 23 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 23 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
        (*(volatile uint8_t *)(0XC6))
-# 23 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 23 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
            ;
 }
 void USART0_transmit(uint8_t data)
 {
 
  while(!(
-# 28 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 28 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
         (*(volatile uint8_t *)(0xC0)) 
-# 28 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 28 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
                & (1<<
-# 28 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 28 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
                      5
-# 28 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 28 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
                           )));
 
  
-# 30 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" 3
+# 30 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" 3
 (*(volatile uint8_t *)(0XC6)) 
-# 30 "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c"
+# 30 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
      = data;
 }

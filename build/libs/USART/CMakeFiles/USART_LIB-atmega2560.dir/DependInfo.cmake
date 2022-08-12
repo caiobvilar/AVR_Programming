@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hellscoffe/Develop/avr-programming/libs/USART/usart.c" "libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj" "gcc" "libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj.d"
+  "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" "libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj" "gcc" "libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj.d"
   )
 
 # Targets to which this target links.

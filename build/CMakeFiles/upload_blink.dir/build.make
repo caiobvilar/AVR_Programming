@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/avr-programming
+CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/AVR_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hellscoffe/Develop/avr-programming/build
+CMAKE_BINARY_DIR = /home/hellscoffe/Develop/AVR_Programming/build
 
 # Utility rule file for upload_blink.
 
@@ -67,11 +67,11 @@ include CMakeFiles/upload_blink.dir/compiler_depend.make
 include CMakeFiles/upload_blink.dir/progress.make
 
 CMakeFiles/upload_blink: blink-atmega2560.hex
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hellscoffe/Develop/avr-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Uploading blink-atmega2560.hex to atmega2560 using wiring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Uploading blink-atmega2560.hex to atmega2560 using wiring"
 	avrdude -p atmega2560 -c wiring -U flash:w:blink-atmega2560.hex -P /dev/ttyACM0
 
 blink-atmega2560.hex: blink-atmega2560.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hellscoffe/Develop/avr-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating blink-atmega2560.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating blink-atmega2560.hex"
 	/usr/bin/avr-objcopy -j .text -j .data -O ihex blink-atmega2560.elf blink-atmega2560.hex
 	/usr/bin/avr-size -C --mcu=atmega2560 blink-atmega2560.elf
 
@@ -89,6 +89,6 @@ CMakeFiles/upload_blink.dir/clean:
 .PHONY : CMakeFiles/upload_blink.dir/clean
 
 CMakeFiles/upload_blink.dir/depend:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/avr-programming /home/hellscoffe/Develop/avr-programming /home/hellscoffe/Develop/avr-programming/build /home/hellscoffe/Develop/avr-programming/build /home/hellscoffe/Develop/avr-programming/build/CMakeFiles/upload_blink.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/AVR_Programming /home/hellscoffe/Develop/AVR_Programming /home/hellscoffe/Develop/AVR_Programming/build /home/hellscoffe/Develop/AVR_Programming/build /home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles/upload_blink.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/upload_blink.dir/depend
 

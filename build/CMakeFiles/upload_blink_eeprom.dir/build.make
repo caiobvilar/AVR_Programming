@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/avr-programming
+CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/AVR_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hellscoffe/Develop/avr-programming/build
+CMAKE_BINARY_DIR = /home/hellscoffe/Develop/AVR_Programming/build
 
 # Utility rule file for upload_blink_eeprom.
 
@@ -67,11 +67,11 @@ include CMakeFiles/upload_blink_eeprom.dir/compiler_depend.make
 include CMakeFiles/upload_blink_eeprom.dir/progress.make
 
 CMakeFiles/upload_blink_eeprom: blink-atmega2560-eeprom.hex
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hellscoffe/Develop/avr-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Uploading blink-atmega2560-eeprom.hex to atmega2560 using wiring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Uploading blink-atmega2560-eeprom.hex to atmega2560 using wiring"
 	avrdude -p atmega2560 -c wiring -U eeprom:w:blink-atmega2560-eeprom.hex -P /dev/ttyACM0
 
 blink-atmega2560-eeprom.hex: blink-atmega2560.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hellscoffe/Develop/avr-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating blink-atmega2560-eeprom.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating blink-atmega2560-eeprom.hex"
 	/usr/bin/avr-objcopy -j .eeprom --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0 --no-change-warnings -O ihex blink-atmega2560.elf blink-atmega2560-eeprom.hex
 
 upload_blink_eeprom: CMakeFiles/upload_blink_eeprom
@@ -88,6 +88,6 @@ CMakeFiles/upload_blink_eeprom.dir/clean:
 .PHONY : CMakeFiles/upload_blink_eeprom.dir/clean
 
 CMakeFiles/upload_blink_eeprom.dir/depend:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/avr-programming /home/hellscoffe/Develop/avr-programming /home/hellscoffe/Develop/avr-programming/build /home/hellscoffe/Develop/avr-programming/build /home/hellscoffe/Develop/avr-programming/build/CMakeFiles/upload_blink_eeprom.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/AVR_Programming /home/hellscoffe/Develop/AVR_Programming /home/hellscoffe/Develop/AVR_Programming/build /home/hellscoffe/Develop/AVR_Programming/build /home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles/upload_blink_eeprom.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/upload_blink_eeprom.dir/depend
 

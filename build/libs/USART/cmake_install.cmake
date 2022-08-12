@@ -1,4 +1,4 @@
-# Install script for directory: /home/hellscoffe/Develop/avr-programming/libs/USART
+# Install script for directory: /home/hellscoffe/Develop/AVR_Programming/libs/USART
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

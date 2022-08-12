@@ -13,7 +13,7 @@ __zero_reg__ = 1
 	.type	main, @function
 main:
 .LFB7:
-	.file 1 "/home/hellscoffe/Develop/avr-programming/main.c"
+	.file 1 "/home/hellscoffe/Develop/AVR_Programming/main.c"
 	.loc 1 7 1
 	.cfi_startproc
 /* prologue: function */
@@ -68,7 +68,7 @@ main:
 	.text
 .Letext0:
 	.file 3 "/usr/avr/include/stdint.h"
-	.file 4 "/home/hellscoffe/Develop/avr-programming/libs/USART/include/usart.h"
+	.file 4 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/include/usart.h"
 	.file 5 "/usr/avr/include/math.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
@@ -546,18 +546,14 @@ main:
 	.string	"GNU C99 11.2.0 -mn-flash=4 -mno-skip-bug -mdouble=32 -mlong-double=64 -mmcu=avr6 -g -gdwarf-3 -gstrict-dwarf -O0 -Os -pedantic-errors -std=gnu99 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -ffunction-sections"
 .LASF12:
 	.string	"USART0_transmit"
-.LASF16:
-	.string	"/home/hellscoffe/Develop/avr-programming/main.c"
 .LASF11:
 	.string	"__builtin_avr_delay_cycles"
-.LASF21:
-	.string	"_delay_ms"
 .LASF1:
 	.string	"unsigned char"
 .LASF6:
 	.string	"long unsigned int"
-.LASF17:
-	.string	"/home/hellscoffe/Develop/avr-programming/build"
+.LASF21:
+	.string	"_delay_ms"
 .LASF10:
 	.string	"double"
 .LASF20:
@@ -568,12 +564,16 @@ main:
 	.string	"long long unsigned int"
 .LASF4:
 	.string	"uint8_t"
+.LASF17:
+	.string	"/home/hellscoffe/Develop/AVR_Programming/build"
 .LASF7:
 	.string	"long long int"
 .LASF18:
 	.string	"ceil"
 .LASF9:
 	.string	"char"
+.LASF16:
+	.string	"/home/hellscoffe/Develop/AVR_Programming/main.c"
 .LASF14:
 	.string	"__ticks_dc"
 .LASF13:

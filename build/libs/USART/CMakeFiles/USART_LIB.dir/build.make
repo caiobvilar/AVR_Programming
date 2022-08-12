@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/avr-programming
+CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/AVR_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hellscoffe/Develop/avr-programming/build
+CMAKE_BINARY_DIR = /home/hellscoffe/Develop/AVR_Programming/build
 
 # Utility rule file for USART_LIB.
 
@@ -77,10 +77,10 @@ libs/USART/CMakeFiles/USART_LIB.dir/build: USART_LIB
 .PHONY : libs/USART/CMakeFiles/USART_LIB.dir/build
 
 libs/USART/CMakeFiles/USART_LIB.dir/clean:
-	cd /home/hellscoffe/Develop/avr-programming/build/libs/USART && $(CMAKE_COMMAND) -P CMakeFiles/USART_LIB.dir/cmake_clean.cmake
+	cd /home/hellscoffe/Develop/AVR_Programming/build/libs/USART && $(CMAKE_COMMAND) -P CMakeFiles/USART_LIB.dir/cmake_clean.cmake
 .PHONY : libs/USART/CMakeFiles/USART_LIB.dir/clean
 
 libs/USART/CMakeFiles/USART_LIB.dir/depend:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/avr-programming /home/hellscoffe/Develop/avr-programming/libs/USART /home/hellscoffe/Develop/avr-programming/build /home/hellscoffe/Develop/avr-programming/build/libs/USART /home/hellscoffe/Develop/avr-programming/build/libs/USART/CMakeFiles/USART_LIB.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/AVR_Programming /home/hellscoffe/Develop/AVR_Programming/libs/USART /home/hellscoffe/Develop/AVR_Programming/build /home/hellscoffe/Develop/AVR_Programming/build/libs/USART /home/hellscoffe/Develop/AVR_Programming/build/libs/USART/CMakeFiles/USART_LIB.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/USART/CMakeFiles/USART_LIB.dir/depend
 

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/avr-gcc
 C_DEFINES = -DF_CPU=16000000UL
 
-C_INCLUDES = -I/home/hellscoffe/Develop/avr-programming/libs/USART/include
+C_INCLUDES = -I/home/hellscoffe/Develop/AVR_Programming/libs/USART/include
 
 C_FLAGS = -O0 -save-temps -g -gdwarf-3 -gstrict-dwarf   -fpack-struct -fshort-enums -Wall -Werror -pedantic -pedantic-errors -funsigned-char -funsigned-bitfields -ffunction-sections -c -Os -std=gnu99 -mmcu=atmega2560
 

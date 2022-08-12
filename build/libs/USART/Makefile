@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/avr-programming
+CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/AVR_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hellscoffe/Develop/avr-programming/build
+CMAKE_BINARY_DIR = /home/hellscoffe/Develop/AVR_Programming/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hellscoffe/Develop/avr-programming/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hellscoffe/Develop/avr-programming/build/CMakeFiles /home/hellscoffe/Develop/avr-programming/build/libs/USART//CMakeFiles/progress.marks
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hellscoffe/Develop/avr-programming/build/CMakeFiles 0
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles /home/hellscoffe/Develop/AVR_Programming/build/libs/USART//CMakeFiles/progress.marks
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/clean
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/preinstall
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/preinstall
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/rule:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/rule
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/rule
 .PHONY : libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ USART_LIB-atmega2560: libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/rule
 
 # fast build rule for target.
 USART_LIB-atmega2560/fast:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build.make libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build.make libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build
 .PHONY : USART_LIB-atmega2560/fast
 
 # Convenience name for target.
 libs/USART/CMakeFiles/USART_LIB.dir/rule:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/CMakeFiles/USART_LIB.dir/rule
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/USART/CMakeFiles/USART_LIB.dir/rule
 .PHONY : libs/USART/CMakeFiles/USART_LIB.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ USART_LIB: libs/USART/CMakeFiles/USART_LIB.dir/rule
 
 # fast build rule for target.
 USART_LIB/fast:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB.dir/build.make libs/USART/CMakeFiles/USART_LIB.dir/build
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB.dir/build.make libs/USART/CMakeFiles/USART_LIB.dir/build
 .PHONY : USART_LIB/fast
 
 usart.obj: usart.c.obj
@@ -149,7 +149,7 @@ usart.obj: usart.c.obj
 
 # target to build an object file
 usart.c.obj:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build.make libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build.make libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj
 .PHONY : usart.c.obj
 
 usart.i: usart.c.i
@@ -157,7 +157,7 @@ usart.i: usart.c.i
 
 # target to preprocess a source file
 usart.c.i:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build.make libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.i
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build.make libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.i
 .PHONY : usart.c.i
 
 usart.s: usart.c.s
@@ -165,7 +165,7 @@ usart.s: usart.c.s
 
 # target to generate assembly for a file
 usart.c.s:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build.make libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.s
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(MAKE) $(MAKESILENT) -f libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build.make libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.s
 .PHONY : usart.c.s
 
 # Help Target
@@ -192,6 +192,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/avr-programming
+CMAKE_SOURCE_DIR = /home/hellscoffe/Develop/AVR_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hellscoffe/Develop/avr-programming/build
+CMAKE_BINARY_DIR = /home/hellscoffe/Develop/AVR_Programming/build
 
 # Include any dependencies generated for this target.
 include libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/depend.make
@@ -72,16 +72,16 @@ include libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/flags.make
 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj: libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/flags.make
 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj: ../libs/USART/usart.c
 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj: libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hellscoffe/Develop/avr-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj"
-	cd /home/hellscoffe/Develop/avr-programming/build/libs/USART && /usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj -MF CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj.d -o CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj -c /home/hellscoffe/Develop/avr-programming/libs/USART/usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj"
+	cd /home/hellscoffe/Develop/AVR_Programming/build/libs/USART && /usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj -MF CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj.d -o CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj -c /home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c
 
 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART_LIB-atmega2560.dir/usart.c.i"
-	cd /home/hellscoffe/Develop/avr-programming/build/libs/USART && /usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellscoffe/Develop/avr-programming/libs/USART/usart.c > CMakeFiles/USART_LIB-atmega2560.dir/usart.c.i
+	cd /home/hellscoffe/Develop/AVR_Programming/build/libs/USART && /usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c > CMakeFiles/USART_LIB-atmega2560.dir/usart.c.i
 
 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART_LIB-atmega2560.dir/usart.c.s"
-	cd /home/hellscoffe/Develop/avr-programming/build/libs/USART && /usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellscoffe/Develop/avr-programming/libs/USART/usart.c -o CMakeFiles/USART_LIB-atmega2560.dir/usart.c.s
+	cd /home/hellscoffe/Develop/AVR_Programming/build/libs/USART && /usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c -o CMakeFiles/USART_LIB-atmega2560.dir/usart.c.s
 
 # Object files for target USART_LIB-atmega2560
 USART_LIB__atmega2560_OBJECTS = \
@@ -93,19 +93,19 @@ USART_LIB__atmega2560_EXTERNAL_OBJECTS =
 libs/USART/libUSART_LIB-atmega2560.a: libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj
 libs/USART/libUSART_LIB-atmega2560.a: libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build.make
 libs/USART/libUSART_LIB-atmega2560.a: libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hellscoffe/Develop/avr-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libUSART_LIB-atmega2560.a"
-	cd /home/hellscoffe/Develop/avr-programming/build/libs/USART && $(CMAKE_COMMAND) -P CMakeFiles/USART_LIB-atmega2560.dir/cmake_clean_target.cmake
-	cd /home/hellscoffe/Develop/avr-programming/build/libs/USART && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/USART_LIB-atmega2560.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hellscoffe/Develop/AVR_Programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libUSART_LIB-atmega2560.a"
+	cd /home/hellscoffe/Develop/AVR_Programming/build/libs/USART && $(CMAKE_COMMAND) -P CMakeFiles/USART_LIB-atmega2560.dir/cmake_clean_target.cmake
+	cd /home/hellscoffe/Develop/AVR_Programming/build/libs/USART && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/USART_LIB-atmega2560.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build: libs/USART/libUSART_LIB-atmega2560.a
 .PHONY : libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/build
 
 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/clean:
-	cd /home/hellscoffe/Develop/avr-programming/build/libs/USART && $(CMAKE_COMMAND) -P CMakeFiles/USART_LIB-atmega2560.dir/cmake_clean.cmake
+	cd /home/hellscoffe/Develop/AVR_Programming/build/libs/USART && $(CMAKE_COMMAND) -P CMakeFiles/USART_LIB-atmega2560.dir/cmake_clean.cmake
 .PHONY : libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/clean
 
 libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/depend:
-	cd /home/hellscoffe/Develop/avr-programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/avr-programming /home/hellscoffe/Develop/avr-programming/libs/USART /home/hellscoffe/Develop/avr-programming/build /home/hellscoffe/Develop/avr-programming/build/libs/USART /home/hellscoffe/Develop/avr-programming/build/libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hellscoffe/Develop/AVR_Programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hellscoffe/Develop/AVR_Programming /home/hellscoffe/Develop/AVR_Programming/libs/USART /home/hellscoffe/Develop/AVR_Programming/build /home/hellscoffe/Develop/AVR_Programming/build/libs/USART /home/hellscoffe/Develop/AVR_Programming/build/libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/depend
 
