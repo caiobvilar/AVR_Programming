@@ -1,4 +1,4 @@
-# Install script for directory: /home/hellscoffe/Develop/AVR_Programming
+# Install script for directory: /home/hellscoffe/Development/AVR_Programming
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hellscoffe/Develop/AVR_Programming/build/libs/USART/cmake_install.cmake")
+  include("/home/hellscoffe/Development/AVR_Programming/build/libs/USART/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hellscoffe/Develop/AVR_Programming/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hellscoffe/Development/AVR_Programming/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

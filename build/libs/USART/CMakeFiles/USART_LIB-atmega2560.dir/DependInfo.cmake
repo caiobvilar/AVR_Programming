@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c" "libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj" "gcc" "libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj.d"
+  "/home/hellscoffe/Development/AVR_Programming/libs/USART/usart.c" "libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj" "gcc" "libs/USART/CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

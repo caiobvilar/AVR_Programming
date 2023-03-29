@@ -8,12 +8,12 @@ __zero_reg__ = 1
 	.text
 .Ltext0:
 	.cfi_sections	.debug_frame
+	.file 1 "/home/hellscoffe/Development/AVR_Programming/libs/USART/usart.c"
 	.section	.text.USART0_init,"ax",@progbits
 .global	USART0_init
 	.type	USART0_init, @function
 USART0_init:
 .LFB1:
-	.file 1 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
 	.loc 1 5 1
 	.cfi_startproc
 /* prologue: function */
@@ -378,10 +378,10 @@ USART0_transmit:
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",@progbits,1
-.LASF8:
-	.string	"GNU C99 11.2.0 -mn-flash=4 -mno-skip-bug -mdouble=32 -mlong-double=64 -mmcu=avr6 -g -gdwarf-3 -gstrict-dwarf -O0 -Os -pedantic-errors -std=gnu99 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -ffunction-sections"
 .LASF12:
 	.string	"USART0_transmit"
+.LASF8:
+	.string	"GNU C99 12.1.0 -mn-flash=4 -mno-skip-bug -mdouble=32 -mlong-double=64 -mmcu=avr6 -g -gdwarf-3 -gstrict-dwarf -O0 -Os -pedantic-errors -std=gnu99 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -ffunction-sections"
 .LASF13:
 	.string	"data"
 .LASF1:
@@ -390,24 +390,24 @@ USART0_transmit:
 	.string	"long unsigned int"
 .LASF14:
 	.string	"USART0_receive"
+.LASF9:
+	.string	"/home/hellscoffe/Development/AVR_Programming/libs/USART/usart.c"
 .LASF2:
 	.string	"unsigned int"
+.LASF10:
+	.string	"/home/hellscoffe/Development/AVR_Programming/build/libs/USART"
 .LASF6:
 	.string	"long long unsigned int"
 .LASF11:
 	.string	"uint8_t"
-.LASF10:
-	.string	"/home/hellscoffe/Develop/AVR_Programming/build/libs/USART"
 .LASF5:
 	.string	"long long int"
 .LASF7:
 	.string	"char"
-.LASF9:
-	.string	"/home/hellscoffe/Develop/AVR_Programming/libs/USART/usart.c"
 .LASF3:
 	.string	"long int"
 .LASF15:
 	.string	"USART0_init"
 .LASF0:
 	.string	"signed char"
-	.ident	"GCC: (Fedora 11.2.0-1.fc36) 11.2.0"
+	.ident	"GCC: (Fedora 12.1.0-2.fc37) 12.1.0"

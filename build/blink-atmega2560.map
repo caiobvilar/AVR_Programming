@@ -2,69 +2,70 @@ Archive member included to satisfy reference by file (symbol)
 
 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
                               CMakeFiles/blink-atmega2560.elf.dir/main.c.obj (USART0_init)
-/usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
-                              /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o (exit)
+/usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o (exit)
 
 Discarded input sections
 
- .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
- .text          0x0000000000000000        0x0 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
- .text          0x0000000000000000        0x0 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
- .data          0x0000000000000000        0x0 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
- .bss           0x0000000000000000        0x0 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .data          0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .text          0x00000000        0x0 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+ .data          0x00000000        0x0 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+ .text          0x00000000        0x0 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .data          0x00000000        0x0 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .bss           0x00000000        0x0 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
  .text.USART0_receive
-                0x0000000000000000        0xe libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
- .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
+                0x00000000        0xe libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
 
 Memory Configuration
 
 Name             Origin             Length             Attributes
-text             0x0000000000000000 0x0000000000040000 xr
-data             0x0000000000800200 0x0000000000002000 rw !x
-eeprom           0x0000000000810000 0x0000000000001000 rw !x
-fuse             0x0000000000820000 0x0000000000000003 rw !x
-lock             0x0000000000830000 0x0000000000000400 rw !x
-signature        0x0000000000840000 0x0000000000000400 rw !x
-user_signatures  0x0000000000850000 0x0000000000000400 rw !x
-*default*        0x0000000000000000 0xffffffffffffffff
+text             0x00000000         0x00040000         xr
+data             0x00800200         0x00002000         rw!x
+eeprom           0x00810000         0x00001000         rw!x
+fuse             0x00820000         0x00000003         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
 
 Linker script and memory map
 
 Address of section .data set to 0x800200
-LOAD /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+LOAD /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 LOAD CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
 LOAD libs/USART/libUSART_LIB-atmega2560.a
 START GROUP
-LOAD /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a
-LOAD /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/libm.a
-LOAD /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/libc.a
-LOAD /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/libatmega2560.a
+LOAD /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a
+LOAD /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/libm.a
+LOAD /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/libc.a
+LOAD /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/libatmega2560.a
 END GROUP
-                [0x0000000000040000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x100000
-                [0x0000000000002000]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xfe00
-                [0x0000000000001000]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
-                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
-                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
-                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
-                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+                [0x00040000]                      __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x100000
+                [0x00800200]                      __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800200
+                [0x00002000]                      __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xfe00
+                [0x00001000]                      __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                      __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
 
 .hash
  *(.hash)
@@ -156,41 +157,41 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000      0x146
+.text           0x00000000      0x146
  *(.vectors)
- .vectors       0x0000000000000000       0xe4 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
-                0x0000000000000000                __vectors
-                0x0000000000000000                __vector_default
+ .vectors       0x00000000       0xe4 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
  *(.vectors)
  *(.progmem.gcc*)
-                0x00000000000000e4                . = ALIGN (0x2)
-                0x00000000000000e4                __trampolines_start = .
+                0x000000e4                        . = ALIGN (0x2)
+                0x000000e4                        __trampolines_start = .
  *(.trampolines)
- .trampolines   0x00000000000000e4        0x0 linker stubs
+ .trampolines   0x000000e4        0x0 linker stubs
  *(.trampolines*)
-                0x00000000000000e4                __trampolines_end = .
+                0x000000e4                        __trampolines_end = .
  *libprintf_flt.a:*(.progmem.data)
  *libc.a:*(.progmem.data)
  *(.progmem.*)
-                0x00000000000000e4                . = ALIGN (0x2)
+                0x000000e4                        . = ALIGN (0x2)
  *(.lowtext)
  *(.lowtext*)
-                0x00000000000000e4                __ctors_start = .
+                0x000000e4                        __ctors_start = .
  *(.ctors)
-                0x00000000000000e4                __ctors_end = .
-                0x00000000000000e4                __dtors_start = .
+                0x000000e4                        __ctors_end = .
+                0x000000e4                        __dtors_start = .
  *(.dtors)
-                0x00000000000000e4                __dtors_end = .
+                0x000000e4                        __dtors_end = .
  SORT_BY_NAME(*)(.ctors)
  SORT_BY_NAME(*)(.dtors)
  *(.init0)
- .init0         0x00000000000000e4        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
-                0x00000000000000e4                __init
+ .init0         0x000000e4        0x0 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x000000e4                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000000000000e4       0x10 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .init2         0x000000e4       0x10 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  *(.init2)
  *(.init3)
  *(.init3)
@@ -205,83 +206,83 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x00000000000000f4        0x4 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .init9         0x000000f4        0x4 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  *(.init9)
  *(.text)
- .text          0x00000000000000f8        0x2 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
-                0x00000000000000f8                __vector_38
-                0x00000000000000f8                __vector_22
-                0x00000000000000f8                __vector_28
-                0x00000000000000f8                __vector_1
-                0x00000000000000f8                __vector_32
-                0x00000000000000f8                __vector_34
-                0x00000000000000f8                __vector_24
-                0x00000000000000f8                __vector_12
-                0x00000000000000f8                __vector_55
-                0x00000000000000f8                __vector_46
-                0x00000000000000f8                __bad_interrupt
-                0x00000000000000f8                __vector_6
-                0x00000000000000f8                __vector_31
-                0x00000000000000f8                __vector_35
-                0x00000000000000f8                __vector_39
-                0x00000000000000f8                __vector_3
-                0x00000000000000f8                __vector_23
-                0x00000000000000f8                __vector_30
-                0x00000000000000f8                __vector_45
-                0x00000000000000f8                __vector_25
-                0x00000000000000f8                __vector_11
-                0x00000000000000f8                __vector_54
-                0x00000000000000f8                __vector_13
-                0x00000000000000f8                __vector_17
-                0x00000000000000f8                __vector_19
-                0x00000000000000f8                __vector_56
-                0x00000000000000f8                __vector_7
-                0x00000000000000f8                __vector_49
-                0x00000000000000f8                __vector_41
-                0x00000000000000f8                __vector_43
-                0x00000000000000f8                __vector_27
-                0x00000000000000f8                __vector_5
-                0x00000000000000f8                __vector_33
-                0x00000000000000f8                __vector_47
-                0x00000000000000f8                __vector_52
-                0x00000000000000f8                __vector_37
-                0x00000000000000f8                __vector_4
-                0x00000000000000f8                __vector_44
-                0x00000000000000f8                __vector_51
-                0x00000000000000f8                __vector_9
-                0x00000000000000f8                __vector_2
-                0x00000000000000f8                __vector_21
-                0x00000000000000f8                __vector_15
-                0x00000000000000f8                __vector_36
-                0x00000000000000f8                __vector_29
-                0x00000000000000f8                __vector_40
-                0x00000000000000f8                __vector_8
-                0x00000000000000f8                __vector_26
-                0x00000000000000f8                __vector_48
-                0x00000000000000f8                __vector_14
-                0x00000000000000f8                __vector_53
-                0x00000000000000f8                __vector_10
-                0x00000000000000f8                __vector_50
-                0x00000000000000f8                __vector_16
-                0x00000000000000f8                __vector_18
-                0x00000000000000f8                __vector_20
-                0x00000000000000f8                __vector_42
-                0x00000000000000fa                . = ALIGN (0x2)
+ .text          0x000000f8        0x2 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x000000f8                __vector_38
+                0x000000f8                __vector_22
+                0x000000f8                __vector_28
+                0x000000f8                __vector_1
+                0x000000f8                __vector_32
+                0x000000f8                __vector_34
+                0x000000f8                __vector_24
+                0x000000f8                __vector_12
+                0x000000f8                __vector_55
+                0x000000f8                __vector_46
+                0x000000f8                __bad_interrupt
+                0x000000f8                __vector_6
+                0x000000f8                __vector_31
+                0x000000f8                __vector_35
+                0x000000f8                __vector_39
+                0x000000f8                __vector_3
+                0x000000f8                __vector_23
+                0x000000f8                __vector_30
+                0x000000f8                __vector_45
+                0x000000f8                __vector_25
+                0x000000f8                __vector_11
+                0x000000f8                __vector_54
+                0x000000f8                __vector_13
+                0x000000f8                __vector_17
+                0x000000f8                __vector_19
+                0x000000f8                __vector_56
+                0x000000f8                __vector_7
+                0x000000f8                __vector_49
+                0x000000f8                __vector_41
+                0x000000f8                __vector_43
+                0x000000f8                __vector_27
+                0x000000f8                __vector_5
+                0x000000f8                __vector_33
+                0x000000f8                __vector_47
+                0x000000f8                __vector_52
+                0x000000f8                __vector_37
+                0x000000f8                __vector_4
+                0x000000f8                __vector_44
+                0x000000f8                __vector_51
+                0x000000f8                __vector_9
+                0x000000f8                __vector_2
+                0x000000f8                __vector_21
+                0x000000f8                __vector_15
+                0x000000f8                __vector_36
+                0x000000f8                __vector_29
+                0x000000f8                __vector_40
+                0x000000f8                __vector_8
+                0x000000f8                __vector_26
+                0x000000f8                __vector_48
+                0x000000f8                __vector_14
+                0x000000f8                __vector_53
+                0x000000f8                __vector_10
+                0x000000f8                __vector_50
+                0x000000f8                __vector_16
+                0x000000f8                __vector_18
+                0x000000f8                __vector_20
+                0x000000f8                __vector_42
+                0x000000fa                        . = ALIGN (0x2)
  *(.text.*)
  .text.startup.main
-                0x00000000000000fa       0x22 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
-                0x00000000000000fa                main
+                0x000000fa       0x22 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+                0x000000fa                main
  .text.USART0_init
-                0x000000000000011c       0x18 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
-                0x000000000000011c                USART0_init
+                0x0000011c       0x18 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+                0x0000011c                USART0_init
  .text.USART0_transmit
-                0x0000000000000134        0xe libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
-                0x0000000000000134                USART0_transmit
-                0x0000000000000142                . = ALIGN (0x2)
+                0x00000134        0xe libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+                0x00000134                USART0_transmit
+                0x00000142                        . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000000142        0x0 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
-                0x0000000000000142                exit
-                0x0000000000000142                _exit
+ .fini9         0x00000142        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
+                0x00000142                exit
+                0x00000142                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -300,17 +301,17 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000000142        0x4 /usr/lib/gcc/avr/11.2.0/avr6/libgcc.a(_exit.o)
+ .fini0         0x00000142        0x4 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
  *(.fini0)
  *(.hightext)
  *(.hightext*)
  *(.progmemx.*)
-                0x0000000000000146                . = ALIGN (0x2)
+                0x00000146                        . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
-                0x0000000000000146                _etext = .
+                0x00000146                        _etext = .
 
-.data           0x0000000000800200        0x0 load address 0x0000000000000146
+.data           0x00800200        0x0 load address 0x00000146
                 [!provide]                        PROVIDE (__data_start = .)
  *(.data)
  *(.data*)
@@ -318,29 +319,29 @@ END GROUP
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.r*)
-                0x0000000000800200                . = ALIGN (0x2)
-                0x0000000000800200                _edata = .
+                0x00800200                        . = ALIGN (0x2)
+                0x00800200                        _edata = .
                 [!provide]                        PROVIDE (__data_end = .)
 
-.bss            0x0000000000800200        0x0
+.bss            0x00800200        0x0
                 [!provide]                        PROVIDE (__bss_start = .)
  *(.bss)
  *(.bss*)
  *(COMMON)
                 [!provide]                        PROVIDE (__bss_end = .)
-                0x0000000000000146                __data_load_start = LOADADDR (.data)
-                0x0000000000000146                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000146                        __data_load_start = LOADADDR (.data)
+                0x00000146                        __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0000000000800200        0x0
+.noinit         0x00800200        0x0
                 [!provide]                        PROVIDE (__noinit_start = .)
  *(.noinit .noinit.* .gnu.linkonce.n.*)
                 [!provide]                        PROVIDE (__noinit_end = .)
-                0x0000000000800200                _end = .
+                0x00800200                        _end = .
                 [!provide]                        PROVIDE (__heap_start = .)
 
-.eeprom         0x0000000000810000        0x0
+.eeprom         0x00810000        0x0
  *(.eeprom*)
-                0x0000000000810000                __eeprom_end = .
+                0x00810000                        __eeprom_end = .
 
 .fuse
  *(.fuse)
@@ -372,16 +373,16 @@ END GROUP
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x0000000000000000       0x23
+.comment        0x00000000       0x23
  *(.comment)
- .comment       0x0000000000000000       0x23 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
-                                         0x24 (size before relaxing)
- .comment       0x0000000000000023       0x24 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .comment       0x00000000       0x23 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+                                 0x24 (size before relaxing)
+ .comment       0x00000023       0x24 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
 
 .note.gnu.avr.deviceinfo
-                0x0000000000000000       0x40
+                0x00000000       0x40
  .note.gnu.avr.deviceinfo
-                0x0000000000000000       0x40 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x00000000       0x40 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 
 .note.gnu.build-id
  *(.note.gnu.build-id)
@@ -398,46 +399,52 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000       0x50
+.debug_aranges  0x00000000       0x70
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000       0x20 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+                0x00000000       0x20 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
  .debug_aranges
-                0x0000000000000020       0x30 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+                0x00000020       0x30 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .debug_aranges
+                0x00000050       0x20 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000      0xdd0
+.debug_info     0x00000000      0xdf4
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x0000000000000000      0xbbc /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
- .debug_info    0x0000000000000bbc      0x150 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
- .debug_info    0x0000000000000d0c       0xc4 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .debug_info    0x00000000      0xbbc /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_info    0x00000bbc      0x150 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+ .debug_info    0x00000d0c       0xc4 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .debug_info    0x00000dd0       0x24 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
 
-.debug_abbrev   0x0000000000000000      0xcbd
+.debug_abbrev   0x00000000      0xcd1
  *(.debug_abbrev)
- .debug_abbrev  0x0000000000000000      0xb1a /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
- .debug_abbrev  0x0000000000000b1a      0x110 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
- .debug_abbrev  0x0000000000000c2a       0x93 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .debug_abbrev  0x00000000      0xb1a /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_abbrev  0x00000b1a      0x110 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+ .debug_abbrev  0x00000c2a       0x93 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .debug_abbrev  0x00000cbd       0x14 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
 
-.debug_line     0x0000000000000000      0x2e6
+.debug_line     0x00000000      0x34b
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x0000000000000000       0x1d /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
- .debug_line    0x000000000000001d      0x169 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
- .debug_line    0x0000000000000186      0x160 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .debug_line    0x00000000       0x1d /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_line    0x0000001d      0x179 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+ .debug_line    0x00000196      0x164 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .debug_line    0x000002fa       0x51 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
 
-.debug_frame    0x0000000000000000       0x68
+.debug_frame    0x00000000       0x68
  *(.debug_frame)
- .debug_frame   0x0000000000000000       0x24 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
- .debug_frame   0x0000000000000024       0x44 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .debug_frame   0x00000000       0x24 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+ .debug_frame   0x00000024       0x44 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
 
-.debug_str      0x0000000000000000      0x661
+.debug_str      0x00000000      0x6ef
  *(.debug_str)
- .debug_str     0x0000000000000000      0x3e6 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr6/crtatmega2560.o
- .debug_str     0x00000000000003e6      0x1f1 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
-                                        0x22a (size before relaxing)
- .debug_str     0x00000000000005d7       0x8a libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
-                                        0x200 (size before relaxing)
+ .debug_str     0x00000000      0x3e6 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_str     0x000003e6      0x1f9 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+                                0x232 (size before relaxing)
+ .debug_str     0x000005df       0x92 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+                                0x208 (size before relaxing)
+ .debug_str     0x00000671       0x7e /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
 
 .debug_loc
  *(.debug_loc)
@@ -460,16 +467,20 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x0000000000000000       0x30
+.debug_ranges   0x00000000       0x30
  *(.debug_ranges)
- .debug_ranges  0x0000000000000000       0x10 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
- .debug_ranges  0x0000000000000010       0x20 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+ .debug_ranges  0x00000000       0x10 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+ .debug_ranges  0x00000010       0x20 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
 
 .debug_addr
  *(.debug_addr)
 
 .debug_line_str
+                0x00000000       0x72
  *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0x72 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
+                                 0x7e (size before relaxing)
 
 .debug_loclists
  *(.debug_loclists)

@@ -1,2 +1,2 @@
-/usr/bin/avr-ar qc libUSART_LIB-atmega2560.a CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj
+/usr/bin/avr-ar qc libUSART_LIB-atmega2560.a "CMakeFiles/USART_LIB-atmega2560.dir/usart.c.obj"
 /usr/bin/avr-ranlib libUSART_LIB-atmega2560.a

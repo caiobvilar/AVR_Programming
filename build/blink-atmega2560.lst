@@ -137,38 +137,68 @@ Disassembly of section .text:
 
 000000fa <main>:
   fa:	10 d0       	rcall	.+32     	; 0x11c <USART0_init>
+
+000000fc <.Loc.2>:
   fc:	27 9a       	sbi	0x04, 7	; 4
+
+000000fe <.L2>:
   fe:	85 b1       	in	r24, 0x05	; 5
+
+00000100 <.Loc.7>:
  100:	80 58       	subi	r24, 0x80	; 128
  102:	85 b9       	out	0x05, r24	; 5
+
+00000104 <.LBB4>:
  104:	2f ef       	ldi	r18, 0xFF	; 255
- 106:	83 ed       	ldi	r24, 0xD3	; 211
- 108:	90 e3       	ldi	r25, 0x30	; 48
+ 106:	89 e6       	ldi	r24, 0x69	; 105
+ 108:	98 e1       	ldi	r25, 0x18	; 24
+
+0000010a <.L1^B1>:
  10a:	21 50       	subi	r18, 0x01	; 1
  10c:	80 40       	sbci	r24, 0x00	; 0
  10e:	90 40       	sbci	r25, 0x00	; 0
- 110:	e1 f7       	brne	.-8      	; 0x10a <main+0x10>
- 112:	00 c0       	rjmp	.+0      	; 0x114 <main+0x1a>
- 114:	00 00       	nop
+ 110:	e1 f7       	brne	.-8      	; 0x10a <.L1^B1>
+ 112:	00 c0       	rjmp	.+0      	; 0x114 <L0^A>
+
+00000114 <L0^A>:
+	...
+
+00000116 <.LBE4>:
  116:	8a e2       	ldi	r24, 0x2A	; 42
  118:	0d d0       	rcall	.+26     	; 0x134 <USART0_transmit>
- 11a:	f1 cf       	rjmp	.-30     	; 0xfe <main+0x4>
+
+0000011a <.Loc.16>:
+ 11a:	f1 cf       	rjmp	.-30     	; 0xfe <.L2>
 
 0000011c <USART0_init>:
  11c:	10 92 c5 00 	sts	0x00C5, r1	; 0x8000c5 <__TEXT_REGION_LENGTH__+0x7c00c5>
+
+00000120 <.Loc.3>:
  120:	87 e6       	ldi	r24, 0x67	; 103
  122:	80 93 c4 00 	sts	0x00C4, r24	; 0x8000c4 <__TEXT_REGION_LENGTH__+0x7c00c4>
+
+00000126 <.Loc.5>:
  126:	88 e1       	ldi	r24, 0x18	; 24
  128:	80 93 c1 00 	sts	0x00C1, r24	; 0x8000c1 <__TEXT_REGION_LENGTH__+0x7c00c1>
+
+0000012c <.Loc.7>:
  12c:	8e e0       	ldi	r24, 0x0E	; 14
  12e:	80 93 c2 00 	sts	0x00C2, r24	; 0x8000c2 <__TEXT_REGION_LENGTH__+0x7c00c2>
+
+00000132 <.Loc.9>:
  132:	08 95       	ret
 
 00000134 <USART0_transmit>:
  134:	90 91 c0 00 	lds	r25, 0x00C0	; 0x8000c0 <__TEXT_REGION_LENGTH__+0x7c00c0>
+
+00000138 <.Loc.20>:
  138:	95 ff       	sbrs	r25, 5
  13a:	fc cf       	rjmp	.-8      	; 0x134 <USART0_transmit>
+
+0000013c <.Loc.21>:
  13c:	80 93 c6 00 	sts	0x00C6, r24	; 0x8000c6 <__TEXT_REGION_LENGTH__+0x7c00c6>
+
+00000140 <.Loc.23>:
  140:	08 95       	ret
 
 00000142 <_exit>:

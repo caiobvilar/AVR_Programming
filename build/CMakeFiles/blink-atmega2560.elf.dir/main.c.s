@@ -8,12 +8,12 @@ __zero_reg__ = 1
 	.text
 .Ltext0:
 	.cfi_sections	.debug_frame
+	.file 1 "/home/hellscoffe/Development/AVR_Programming/main.c"
 	.section	.text.startup.main,"ax",@progbits
 .global	main
 	.type	main, @function
 main:
 .LFB7:
-	.file 1 "/home/hellscoffe/Develop/AVR_Programming/main.c"
 	.loc 1 7 1
 	.cfi_startproc
 /* prologue: function */
@@ -29,8 +29,9 @@ main:
 .L2:
 	.loc 1 10 2 is_stmt 1
 	.loc 1 12 2
-	.loc 1 12 8 is_stmt 0
+	.loc 1 12 3 is_stmt 0
 	in r24,0x5
+	.loc 1 12 8
 	subi r24,lo8(-(-128))
 	out 0x5,r24
 	.loc 1 13 3 is_stmt 1
@@ -44,9 +45,9 @@ main:
 	.loc 2 174 2
 	.loc 2 184 3
 	.loc 2 187 2
-	ldi r18,lo8(3199999)
-	ldi r24,hi8(3199999)
-	ldi r25,hlo8(3199999)
+	ldi r18,lo8(1599999)
+	ldi r24,hi8(1599999)
+	ldi r25,hlo8(1599999)
 1:	subi r18,1
 	sbci r24,0
 	sbci r25,0
@@ -68,7 +69,7 @@ main:
 	.text
 .Letext0:
 	.file 3 "/usr/avr/include/stdint.h"
-	.file 4 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/include/usart.h"
+	.file 4 "/home/hellscoffe/Development/AVR_Programming/libs/USART/include/usart.h"
 	.file 5 "/usr/avr/include/math.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
@@ -542,10 +543,12 @@ main:
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",@progbits,1
-.LASF15:
-	.string	"GNU C99 11.2.0 -mn-flash=4 -mno-skip-bug -mdouble=32 -mlong-double=64 -mmcu=avr6 -g -gdwarf-3 -gstrict-dwarf -O0 -Os -pedantic-errors -std=gnu99 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -ffunction-sections"
+.LASF16:
+	.string	"/home/hellscoffe/Development/AVR_Programming/main.c"
 .LASF12:
 	.string	"USART0_transmit"
+.LASF15:
+	.string	"GNU C99 12.1.0 -mn-flash=4 -mno-skip-bug -mdouble=32 -mlong-double=64 -mmcu=avr6 -g -gdwarf-3 -gstrict-dwarf -O0 -Os -pedantic-errors -std=gnu99 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -ffunction-sections"
 .LASF11:
 	.string	"__builtin_avr_delay_cycles"
 .LASF1:
@@ -554,6 +557,8 @@ main:
 	.string	"long unsigned int"
 .LASF21:
 	.string	"_delay_ms"
+.LASF17:
+	.string	"/home/hellscoffe/Development/AVR_Programming/build"
 .LASF10:
 	.string	"double"
 .LASF20:
@@ -564,16 +569,12 @@ main:
 	.string	"long long unsigned int"
 .LASF4:
 	.string	"uint8_t"
-.LASF17:
-	.string	"/home/hellscoffe/Develop/AVR_Programming/build"
 .LASF7:
 	.string	"long long int"
 .LASF18:
 	.string	"ceil"
 .LASF9:
 	.string	"char"
-.LASF16:
-	.string	"/home/hellscoffe/Develop/AVR_Programming/main.c"
 .LASF14:
 	.string	"__ticks_dc"
 .LASF13:
@@ -588,4 +589,4 @@ main:
 	.string	"signed char"
 .LASF22:
 	.string	"__ms"
-	.ident	"GCC: (Fedora 11.2.0-1.fc36) 11.2.0"
+	.ident	"GCC: (Fedora 12.1.0-2.fc37) 12.1.0"

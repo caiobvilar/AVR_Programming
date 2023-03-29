@@ -1,2 +1,0 @@
-/usr/bin/avr-ar qc libNeo7-NLibrary.a CMakeFiles/Neo7-NLibrary.dir/neo7n.c.o
-/usr/bin/avr-ranlib libNeo7-NLibrary.a

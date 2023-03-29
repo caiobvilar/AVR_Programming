@@ -1,8 +1,8 @@
-# 0 "/home/hellscoffe/Develop/AVR_Programming/main.c"
-# 1 "/home/hellscoffe/Develop/AVR_Programming/build//"
+# 0 "/home/hellscoffe/Development/AVR_Programming/main.c"
+# 1 "/home/hellscoffe/Development/AVR_Programming/build//"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "/home/hellscoffe/Develop/AVR_Programming/main.c"
+# 1 "/home/hellscoffe/Development/AVR_Programming/main.c"
 
 # 1 "/usr/avr/include/avr/io.h" 1 3
 # 99 "/usr/avr/include/avr/io.h" 3
@@ -10,8 +10,8 @@
 # 126 "/usr/avr/include/avr/sfr_defs.h" 3
 # 1 "/usr/avr/include/inttypes.h" 1 3
 # 37 "/usr/avr/include/inttypes.h" 3
-# 1 "/usr/lib/gcc/avr/11.2.0/include/stdint.h" 1 3 4
-# 9 "/usr/lib/gcc/avr/11.2.0/include/stdint.h" 3 4
+# 1 "/usr/lib/gcc/avr/12.1.0/include/stdint.h" 1 3 4
+# 9 "/usr/lib/gcc/avr/12.1.0/include/stdint.h" 3 4
 # 1 "/usr/avr/include/stdint.h" 1 3 4
 # 125 "/usr/avr/include/stdint.h" 3 4
 
@@ -123,7 +123,7 @@ typedef int64_t intmax_t;
 
 
 typedef uint64_t uintmax_t;
-# 10 "/usr/lib/gcc/avr/11.2.0/include/stdint.h" 2 3 4
+# 10 "/usr/lib/gcc/avr/12.1.0/include/stdint.h" 2 3 4
 # 38 "/usr/avr/include/inttypes.h" 2 3
 # 77 "/usr/avr/include/inttypes.h" 3
 typedef int32_t int_farptr_t;
@@ -224,7 +224,7 @@ typedef struct
 
 # 1 "/usr/avr/include/avr/lock.h" 1 3
 # 642 "/usr/avr/include/avr/io.h" 2 3
-# 3 "/home/hellscoffe/Develop/AVR_Programming/main.c" 2
+# 3 "/home/hellscoffe/Development/AVR_Programming/main.c" 2
 # 1 "/usr/avr/include/util/delay.h" 1 3
 # 45 "/usr/avr/include/util/delay.h" 3
 # 1 "/usr/avr/include/util/delay_basic.h" 1 3
@@ -532,8 +532,8 @@ _delay_us(double __us)
  __builtin_avr_delay_cycles(__ticks_dc);
 # 299 "/usr/avr/include/util/delay.h" 3
 }
-# 4 "/home/hellscoffe/Develop/AVR_Programming/main.c" 2
-# 1 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/include/usart.h" 1
+# 4 "/home/hellscoffe/Development/AVR_Programming/main.c" 2
+# 1 "/home/hellscoffe/Development/AVR_Programming/libs/USART/include/usart.h" 1
 
 
 
@@ -543,18 +543,18 @@ _delay_us(double __us)
 
 # 1 "/usr/avr/include/stdio.h" 1 3
 # 45 "/usr/avr/include/stdio.h" 3
-# 1 "/usr/lib/gcc/avr/11.2.0/include/stdarg.h" 1 3 4
-# 40 "/usr/lib/gcc/avr/11.2.0/include/stdarg.h" 3 4
+# 1 "/usr/lib/gcc/avr/12.1.0/include/stdarg.h" 1 3 4
+# 40 "/usr/lib/gcc/avr/12.1.0/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
-# 99 "/usr/lib/gcc/avr/11.2.0/include/stdarg.h" 3 4
+# 99 "/usr/lib/gcc/avr/12.1.0/include/stdarg.h" 3 4
 typedef __gnuc_va_list va_list;
 # 46 "/usr/avr/include/stdio.h" 2 3
 
 
 
 
-# 1 "/usr/lib/gcc/avr/11.2.0/include/stddef.h" 1 3 4
-# 209 "/usr/lib/gcc/avr/11.2.0/include/stddef.h" 3 4
+# 1 "/usr/lib/gcc/avr/12.1.0/include/stddef.h" 1 3 4
+# 214 "/usr/lib/gcc/avr/12.1.0/include/stddef.h" 3 4
 typedef unsigned int size_t;
 # 51 "/usr/avr/include/stdio.h" 2 3
 # 244 "/usr/avr/include/stdio.h" 3
@@ -818,39 +818,39 @@ extern void setbuf(FILE *stream, char *buf);
 extern int setvbuf(FILE *stream, char *buf, int mode, size_t size);
 extern FILE *tmpfile(void);
 extern char *tmpnam (char *s);
-# 9 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/include/usart.h" 2
+# 9 "/home/hellscoffe/Development/AVR_Programming/libs/USART/include/usart.h" 2
 
 
-# 10 "/home/hellscoffe/Develop/AVR_Programming/libs/USART/include/usart.h"
+# 10 "/home/hellscoffe/Development/AVR_Programming/libs/USART/include/usart.h"
 void USART0_init(void);
 uint8_t USART0_receive(void);
 void USART0_transmit(uint8_t data);
-# 5 "/home/hellscoffe/Develop/AVR_Programming/main.c" 2
+# 5 "/home/hellscoffe/Development/AVR_Programming/main.c" 2
 
 int main(void)
 {
  USART0_init();
  
-# 9 "/home/hellscoffe/Develop/AVR_Programming/main.c" 3
+# 9 "/home/hellscoffe/Development/AVR_Programming/main.c" 3
 (*(volatile uint8_t *)((0x04) + 0x20)) 
-# 9 "/home/hellscoffe/Develop/AVR_Programming/main.c"
+# 9 "/home/hellscoffe/Development/AVR_Programming/main.c"
      |= 
-# 9 "/home/hellscoffe/Develop/AVR_Programming/main.c" 3
+# 9 "/home/hellscoffe/Development/AVR_Programming/main.c" 3
         (1 << (7))
-# 9 "/home/hellscoffe/Develop/AVR_Programming/main.c"
+# 9 "/home/hellscoffe/Development/AVR_Programming/main.c"
                 ;
  while(1)
  {
   
-# 12 "/home/hellscoffe/Develop/AVR_Programming/main.c" 3
+# 12 "/home/hellscoffe/Development/AVR_Programming/main.c" 3
  (*(volatile uint8_t *)((0x05) + 0x20)) 
-# 12 "/home/hellscoffe/Develop/AVR_Programming/main.c"
+# 12 "/home/hellscoffe/Development/AVR_Programming/main.c"
        ^= (1<<
-# 12 "/home/hellscoffe/Develop/AVR_Programming/main.c" 3
+# 12 "/home/hellscoffe/Development/AVR_Programming/main.c" 3
               7
-# 12 "/home/hellscoffe/Develop/AVR_Programming/main.c"
+# 12 "/home/hellscoffe/Development/AVR_Programming/main.c"
                  );
-  _delay_ms(1000);
+  _delay_ms(500);
   USART0_transmit(42);
  }
  return 0;
