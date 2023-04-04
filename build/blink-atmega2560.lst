@@ -130,13 +130,13 @@ Disassembly of section .text:
   f0:	00 e0       	ldi	r16, 0x00	; 0
   f2:	0c bf       	out	0x3c, r16	; 60
   f4:	02 d0       	rcall	.+4      	; 0xfa <main>
-  f6:	25 c0       	rjmp	.+74     	; 0x142 <_exit>
+  f6:	26 c0       	rjmp	.+76     	; 0x144 <_exit>
 
 000000f8 <__bad_interrupt>:
   f8:	83 cf       	rjmp	.-250    	; 0x0 <__vectors>
 
 000000fa <main>:
-  fa:	10 d0       	rcall	.+32     	; 0x11c <USART0_init>
+  fa:	11 d0       	rcall	.+34     	; 0x11e <USART0_init>
 
 000000fc <.Loc.2>:
   fc:	27 9a       	sbi	0x04, 7	; 4
@@ -149,60 +149,59 @@ Disassembly of section .text:
  102:	85 b9       	out	0x05, r24	; 5
 
 00000104 <.LBB4>:
- 104:	2f ef       	ldi	r18, 0xFF	; 255
- 106:	89 e6       	ldi	r24, 0x69	; 105
- 108:	98 e1       	ldi	r25, 0x18	; 24
+ 104:	2a ea       	ldi	r18, 0xAA	; 170
+ 106:	36 ee       	ldi	r19, 0xE6	; 230
+ 108:	86 e9       	ldi	r24, 0x96	; 150
+ 10a:	91 e0       	ldi	r25, 0x01	; 1
 
-0000010a <.L1^B1>:
- 10a:	21 50       	subi	r18, 0x01	; 1
- 10c:	80 40       	sbci	r24, 0x00	; 0
- 10e:	90 40       	sbci	r25, 0x00	; 0
- 110:	e1 f7       	brne	.-8      	; 0x10a <.L1^B1>
- 112:	00 c0       	rjmp	.+0      	; 0x114 <L0^A>
-
-00000114 <L0^A>:
+0000010c <.L1^B1>:
+ 10c:	21 50       	subi	r18, 0x01	; 1
+ 10e:	30 40       	sbci	r19, 0x00	; 0
+ 110:	80 40       	sbci	r24, 0x00	; 0
+ 112:	90 40       	sbci	r25, 0x00	; 0
+ 114:	d9 f7       	brne	.-10     	; 0x10c <.L1^B1>
 	...
 
-00000116 <.LBE4>:
- 116:	8a e2       	ldi	r24, 0x2A	; 42
- 118:	0d d0       	rcall	.+26     	; 0x134 <USART0_transmit>
+00000118 <.LBE4>:
+ 118:	8a e2       	ldi	r24, 0x2A	; 42
+ 11a:	0d d0       	rcall	.+26     	; 0x136 <USART0_transmit>
 
-0000011a <.Loc.16>:
- 11a:	f1 cf       	rjmp	.-30     	; 0xfe <.L2>
+0000011c <.Loc.16>:
+ 11c:	f0 cf       	rjmp	.-32     	; 0xfe <.L2>
 
-0000011c <USART0_init>:
- 11c:	10 92 c5 00 	sts	0x00C5, r1	; 0x8000c5 <__TEXT_REGION_LENGTH__+0x7c00c5>
+0000011e <USART0_init>:
+ 11e:	10 92 c5 00 	sts	0x00C5, r1	; 0x8000c5 <__TEXT_REGION_LENGTH__+0x7c00c5>
 
-00000120 <.Loc.3>:
- 120:	87 e6       	ldi	r24, 0x67	; 103
- 122:	80 93 c4 00 	sts	0x00C4, r24	; 0x8000c4 <__TEXT_REGION_LENGTH__+0x7c00c4>
+00000122 <.Loc.3>:
+ 122:	87 e6       	ldi	r24, 0x67	; 103
+ 124:	80 93 c4 00 	sts	0x00C4, r24	; 0x8000c4 <__TEXT_REGION_LENGTH__+0x7c00c4>
 
-00000126 <.Loc.5>:
- 126:	88 e1       	ldi	r24, 0x18	; 24
- 128:	80 93 c1 00 	sts	0x00C1, r24	; 0x8000c1 <__TEXT_REGION_LENGTH__+0x7c00c1>
+00000128 <.Loc.5>:
+ 128:	88 e1       	ldi	r24, 0x18	; 24
+ 12a:	80 93 c1 00 	sts	0x00C1, r24	; 0x8000c1 <__TEXT_REGION_LENGTH__+0x7c00c1>
 
-0000012c <.Loc.7>:
- 12c:	8e e0       	ldi	r24, 0x0E	; 14
- 12e:	80 93 c2 00 	sts	0x00C2, r24	; 0x8000c2 <__TEXT_REGION_LENGTH__+0x7c00c2>
+0000012e <.Loc.7>:
+ 12e:	8e e0       	ldi	r24, 0x0E	; 14
+ 130:	80 93 c2 00 	sts	0x00C2, r24	; 0x8000c2 <__TEXT_REGION_LENGTH__+0x7c00c2>
 
-00000132 <.Loc.9>:
- 132:	08 95       	ret
+00000134 <.Loc.9>:
+ 134:	08 95       	ret
 
-00000134 <USART0_transmit>:
- 134:	90 91 c0 00 	lds	r25, 0x00C0	; 0x8000c0 <__TEXT_REGION_LENGTH__+0x7c00c0>
+00000136 <USART0_transmit>:
+ 136:	90 91 c0 00 	lds	r25, 0x00C0	; 0x8000c0 <__TEXT_REGION_LENGTH__+0x7c00c0>
 
-00000138 <.Loc.20>:
- 138:	95 ff       	sbrs	r25, 5
- 13a:	fc cf       	rjmp	.-8      	; 0x134 <USART0_transmit>
+0000013a <.Loc.20>:
+ 13a:	95 ff       	sbrs	r25, 5
+ 13c:	fc cf       	rjmp	.-8      	; 0x136 <USART0_transmit>
 
-0000013c <.Loc.21>:
- 13c:	80 93 c6 00 	sts	0x00C6, r24	; 0x8000c6 <__TEXT_REGION_LENGTH__+0x7c00c6>
+0000013e <.Loc.21>:
+ 13e:	80 93 c6 00 	sts	0x00C6, r24	; 0x8000c6 <__TEXT_REGION_LENGTH__+0x7c00c6>
 
-00000140 <.Loc.23>:
- 140:	08 95       	ret
+00000142 <.Loc.23>:
+ 142:	08 95       	ret
 
-00000142 <_exit>:
- 142:	f8 94       	cli
+00000144 <_exit>:
+ 144:	f8 94       	cli
 
-00000144 <__stop_program>:
- 144:	ff cf       	rjmp	.-2      	; 0x144 <__stop_program>
+00000146 <__stop_program>:
+ 146:	ff cf       	rjmp	.-2      	; 0x146 <__stop_program>

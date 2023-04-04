@@ -10,7 +10,7 @@ int main(void)
 	while(1)
 	{
 		PORTB ^= (1<<PB7);
-		_delay_ms(500);
+		_delay_ms(10000);
 		USART0_transmit(42);
 	}
 	return 0;

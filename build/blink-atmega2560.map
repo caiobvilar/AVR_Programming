@@ -157,7 +157,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0x146
+.text           0x00000000      0x148
  *(.vectors)
  .vectors       0x00000000       0xe4 /usr/lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
                 0x00000000                __vectors
@@ -270,19 +270,19 @@ END GROUP
                 0x000000fa                        . = ALIGN (0x2)
  *(.text.*)
  .text.startup.main
-                0x000000fa       0x22 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
+                0x000000fa       0x24 CMakeFiles/blink-atmega2560.elf.dir/main.c.obj
                 0x000000fa                main
  .text.USART0_init
-                0x0000011c       0x18 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
-                0x0000011c                USART0_init
+                0x0000011e       0x18 libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+                0x0000011e                USART0_init
  .text.USART0_transmit
-                0x00000134        0xe libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
-                0x00000134                USART0_transmit
-                0x00000142                        . = ALIGN (0x2)
+                0x00000136        0xe libs/USART/libUSART_LIB-atmega2560.a(usart.c.obj)
+                0x00000136                USART0_transmit
+                0x00000144                        . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000142        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
-                0x00000142                exit
-                0x00000142                _exit
+ .fini9         0x00000144        0x0 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
+                0x00000144                exit
+                0x00000144                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -301,17 +301,17 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000142        0x4 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
+ .fini0         0x00000144        0x4 /usr/lib/gcc/avr/12.1.0/avr6/libgcc.a(_exit.o)
  *(.fini0)
  *(.hightext)
  *(.hightext*)
  *(.progmemx.*)
-                0x00000146                        . = ALIGN (0x2)
+                0x00000148                        . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
-                0x00000146                        _etext = .
+                0x00000148                        _etext = .
 
-.data           0x00800200        0x0 load address 0x00000146
+.data           0x00800200        0x0 load address 0x00000148
                 [!provide]                        PROVIDE (__data_start = .)
  *(.data)
  *(.data*)
@@ -329,8 +329,8 @@ END GROUP
  *(.bss*)
  *(COMMON)
                 [!provide]                        PROVIDE (__bss_end = .)
-                0x00000146                        __data_load_start = LOADADDR (.data)
-                0x00000146                        __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000148                        __data_load_start = LOADADDR (.data)
+                0x00000148                        __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800200        0x0
                 [!provide]                        PROVIDE (__noinit_start = .)

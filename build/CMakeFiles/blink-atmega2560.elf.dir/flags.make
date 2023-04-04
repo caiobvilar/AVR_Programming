@@ -6,5 +6,5 @@ C_DEFINES = -DF_CPU=16000000UL
 
 C_INCLUDES = -I/home/hellscoffe/Development/AVR_Programming/libs/USART/include
 
-C_FLAGS = -O0 -save-temps -g -gdwarf-3 -gstrict-dwarf   -fpack-struct -fshort-enums -Wall -Werror -pedantic -pedantic-errors -funsigned-char -funsigned-bitfields -ffunction-sections -c -Os -std=gnu99 -mmcu=atmega2560
+C_FLAGS = -Os   -fpack-struct -fshort-enums -Wall -Werror -pedantic -pedantic-errors -funsigned-char -funsigned-bitfields -ffunction-sections -c -Os -std=gnu99 -mmcu=atmega2560
 

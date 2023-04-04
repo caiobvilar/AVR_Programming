@@ -1,1 +1,1 @@
-/usr/bin/avr-gcc -O0 -save-temps -g -gdwarf-3 -gstrict-dwarf -mmcu=atmega2560 -Wl,--gc-sections -mrelax -Wl,-Map,blink-atmega2560.map "CMakeFiles/blink-atmega2560.elf.dir/main.c.obj" -o blink-atmega2560.elf  libs/USART/libUSART_LIB-atmega2560.a 
+/usr/bin/avr-gcc -Os -mmcu=atmega2560 -Wl,--gc-sections -mrelax -Wl,-Map,blink-atmega2560.map "CMakeFiles/blink-atmega2560.elf.dir/main.c.obj" -o blink-atmega2560.elf  libs/USART/libUSART_LIB-atmega2560.a 
