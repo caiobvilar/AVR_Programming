@@ -47,9 +47,16 @@ void USART0_sendCRLF()
 	USART0_transmitMulti(2,CRLF);
 }
 
-void SendInt(int data)
+void SendInt(int16_t data)
 {
-	char tmp_buffer[4];
+	USART0_transmit((uint8_t)sizeof(data));
+	char tmp_buffer[7]; // Size of short int/int16_t
 	itoa(data,tmp_buffer,10);
-	USART0_transmitMulti(4,(uint8_t*)&tmp_buffer);
+	USART0_transmitMulti(7,(uint8_t*)&tmp_buffer);
+}
+
+void SendString(char *string)
+{
+	char c;
+	while ((c = *string++)) USART0_transmit(c);
 }
