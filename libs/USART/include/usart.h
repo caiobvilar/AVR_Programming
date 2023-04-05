@@ -1,5 +1,5 @@
-#ifndef _USART_HPP__
-#define __USART_HPP__
+#ifndef __USART_H__
+#define __USART_H__
 // TODO: autoatic configuration of BAUDRATE, from argument
 // SET BAUD RATE to 9600 at 16MHz
 
@@ -35,4 +35,4 @@ void SendInt(int16_t data);
 /// @brief Send whole string through serial usart.
 /// @param char* string to be sent
 void SendString(char *string);
-#endif /* __USART_HPP__ */
+#endif /* __USART_H__ */
