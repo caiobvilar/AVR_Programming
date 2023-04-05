@@ -17,6 +17,7 @@ int main(void)
 	_delay_ms(10000);
 	SendString(string);
 	USART0_sendCRLF();
+	// Simple tests, not that useful
   }
   
   return 0;
