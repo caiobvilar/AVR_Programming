@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}",
                 "/usr/avr/include/**",
-                "${workspaceFolder}/libs/USART/include/**",
+                "${workspaceFolder}/libs/USART/include/",
                 "${workspaceFolder}/libs/GPS/include/**",
                 "${workspaceFolder}/libs/I2C/include/**",
                 "/usr/lib/gcc/avr/12.1.0/include/**",

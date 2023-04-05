@@ -138,11 +138,13 @@ add_definitions("-std=gnu99")
 # include search paths
 ##########################################################################
 include_directories(${CMAKE_SOURCE_DIR}/libs/USART/include)
+include_directories(${CMAKE_SOURCE_DIR}/libs/I2C/include)
 
 ##########################################################################
 # building library and application in their subdirectories
 ##########################################################################
 add_subdirectory(${CMAKE_SOURCE_DIR}/libs/USART)
+add_subdirectory(${CMAKE_SOURCE_DIR}/libs/I2C)
 ##########################################################################
 # testing functions w/o source files - gets FATAL_ERROR
 ##########################################################################

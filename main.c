@@ -1,9 +1,9 @@
 #define F_CPU 16000000UL // 16MHz - ATMEGA 2560
 
-#include "usart.h"
 #include <avr/io.h>
 #include <util/delay.h>
-
+#include "usart.h"
+#include "I2C.h"
 int main(void)
 {
   USART0_init();
