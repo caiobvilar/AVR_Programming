@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hellscoffe/Development/AVR_Programming'
+make: Leaving directory '/home/hellscoffe/Development/AVR_Programming'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
