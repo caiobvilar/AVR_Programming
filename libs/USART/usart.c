@@ -49,10 +49,19 @@ void USART0_sendCRLF()
 
 void SendInt(int16_t data)
 {
-	USART0_transmit((uint8_t)sizeof(data));
-	char tmp_buffer[7]; // Size of short int/int16_t
-	itoa(data,tmp_buffer,10);
-	USART0_transmitMulti(7,(uint8_t*)&tmp_buffer);
+	if(data < 0)
+	{
+		char tmp_buffer[7]; // Size of short int/int16_t
+		itoa(data,tmp_buffer,10);
+		USART0_transmitMulti(7,(uint8_t*)&tmp_buffer);
+	}
+	else
+	{
+		char tmp_buffer[6]; // Size of short int/int16_t
+		itoa(data,tmp_buffer,10);
+		USART0_transmitMulti(6,(uint8_t*)&tmp_buffer);
+
+	}
 }
 
 void SendString(char *string)
