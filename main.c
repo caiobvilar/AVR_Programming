@@ -3,19 +3,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-<<<<<<< HEAD
-int main(void)
-{
-	USART0_init();
-	DDRB |= _BV(PB7);
-	while(1)
-	{
-		PORTB ^= (1<<PB7);
-		_delay_ms(10000);
-		USART0_transmit(42);
-	}
-	return 0;
-=======
 int main(void) {
   USART0_init();
   DDRB |= _BV(PB7);
@@ -39,5 +26,4 @@ int main(void) {
 	USART0_sendCRLF();
   }
   return 0;
->>>>>>> 549e334 (cleanup)
 }
