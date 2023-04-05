@@ -1,0 +1,268 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Apr  5 11:38:38 2023
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+I3SOCK = /run/user/1000/i3/ipc-socket.2173
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/hellscoffe
+# environment
+WINDOWPATH = 2
+# environment
+GDM_LANG = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/hellscoffe/Development/AVR_Programming
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = machine
+# environment
+MAIL = /var/spool/mail/hellscoffe
+# environment
+STEAM_FRAME_FORCE_CLOSE = 1
+# environment
+XDG_DATA_DIRS = /home/hellscoffe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/hellscoffe
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/hellscoffe/.config/Code/CachedData/7f329fe6c66b0f86ae1574c2911b681ad5a45d63
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/hellscoffe/Development/AVR_Programming
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/ssh-agent.socket
+# default
+.SHELLFLAGS := -c
+# environment
+HISTSIZE = 1000
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = i3
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 642194
+# environment
+SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS = 0
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+USERNAME = hellscoffe
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = i3
+# environment
+KDEDIRS = /usr
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = i3
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = i3
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = hellscoffe
+# environment
+XDG_VTNR = 2
+# makefile
+.DEFAULT_GOAL := 
+# environment
+SYSTEMD_EXEC_PID = 2050
+# environment
+HISTCONTROL = ignoredups
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :0
+# environment
+USER = hellscoffe
+# default
+MAKE_VERSION := 4.3
+# environment
+DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
+# environment
+SSH_AGENT_PID = 2218
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/hellscoffe
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-4d65ccfe-1.77-main.sock
+# environment
+XDG_SESSION_ID = 2
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+GDMSESSION = i3
+# variable set hash-table stats:
+# Load=92/1024=9%, Rehash=0, Collisions=3/119=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 39, inode 1688419): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 23 / storage = 214 B / avg = 9 B
+# current buf: size = 8162 B / used = 214 B / count = 23 / avg = 9 B
+
+# strcache performance: lookups = 26 / hit rate = 11%
+# hash-table stats:
+# Load=23/8192=0%, Rehash=0, Collisions=0/26=0%
+# Finished Make data base on Wed Apr  5 11:38:38 2023
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+

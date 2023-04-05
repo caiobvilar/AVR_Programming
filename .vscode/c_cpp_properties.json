@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "/usr/avr/include/**",
+                "${workspaceFolder}/libs/USART/include/**",
+                "${workspaceFolder}/libs/GPS/include/**",
+                "${workspaceFolder}/libs/I2C/include/**",
+                "/usr/lib/gcc/avr/12.1.0/include/**",
+                "/usr/lib/gcc/avr/12.1.0/include-fixed/**",
+                "/usr/lib/gcc/avr/12.1.0/../../../../avr/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

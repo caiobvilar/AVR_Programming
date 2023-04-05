@@ -1,5 +1,7 @@
 #include "usart.h"
 #include <avr/io.h>
+#include <string.h>
+#include <stdlib.h>
 
 void USART0_init(void)
 {
@@ -18,14 +20,52 @@ uint8_t USART0_receive(void)
 {
 
 	// Wait for incoming data
-	while(!(UCSR0A & (1<<RXC0)));
+	loop_until_bit_is_set(UCSR0A, RXC0);
 	// Return the data
 	return UDR0;
 }
 void USART0_transmit(uint8_t data)
 {
 	// Wait for empty transmit buffer
-	while(!(UCSR0A & (1<<UDRE0)));
+	loop_until_bit_is_set(UCSR0A, UDRE0);
 	// Start transmission
 	UDR0 = data;
+}
+
+void USART0_transmitMulti(size_t size, uint8_t* data)
+{
+	for(size_t i=0; i < size; i++)
+	{
+		USART0_transmit(data[i]);
+	}
+}
+void USART0_sendCRLF()
+{
+	uint8_t CRLF[2];
+	CRLF[0] =  '\r';
+	CRLF[1] =  '\n';
+	USART0_transmitMulti(2,CRLF);
+}
+
+void SendInt(int16_t data)
+{
+	if(data < 0)
+	{
+		char tmp_buffer[7]; // Size of short int/int16_t
+		itoa(data,tmp_buffer,10);
+		USART0_transmitMulti(7,(uint8_t*)&tmp_buffer);
+	}
+	else
+	{
+		char tmp_buffer[6]; // Size of short int/int16_t
+		itoa(data,tmp_buffer,10);
+		USART0_transmitMulti(6,(uint8_t*)&tmp_buffer);
+
+	}
+}
+
+void SendString(char *string)
+{
+	char c;
+	while ((c = *string++)) USART0_transmit(c);
 }
