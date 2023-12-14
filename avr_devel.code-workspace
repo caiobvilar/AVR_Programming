@@ -5,6 +5,11 @@
         }
     ],
     "settings": {
-        "makefile.extensionOutputFolder": "./.vscode"
+        "makefile.extensionOutputFolder": "./.vscode",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "xaver.clang-format",
+        "clang-format.language.c.enable": true,
+        "C_Cpp.clang_format_style": "file",
+
     }
 }

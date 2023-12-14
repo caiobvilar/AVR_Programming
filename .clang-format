@@ -1,0 +1,14 @@
+# We'll use defaults from the LLVM style, but with 4 columns identation
+BasedOnStyle: Microsoft
+IndentWidth: 4
+Language: Cpp
+SortIncludes: false
+NamespaceIndentation: All
+AlignConsecutiveAssignments: 'true'
+BreakBeforeBraces: Allman
+# Force pointers to the type for C++
+
+DerivePointerAlignment: false
+PointerAlignment: Left
+AllowShortFunctionsOnASingleLine: InlineOnly
+AlignAfterOpenBracket: BlockIndent

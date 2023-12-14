@@ -139,17 +139,19 @@ add_definitions("-std=gnu99")
 ##########################################################################
 include_directories(${CMAKE_SOURCE_DIR}/libs/USART/include)
 include_directories(${CMAKE_SOURCE_DIR}/libs/I2C/include)
+include_directories(${CMAKE_SOURCE_DIR}/libs/CircularBuffer/include)
 
 ##########################################################################
 # building library and application in their subdirectories
 ##########################################################################
 add_subdirectory(${CMAKE_SOURCE_DIR}/libs/USART)
 add_subdirectory(${CMAKE_SOURCE_DIR}/libs/I2C)
+add_subdirectory(${CMAKE_SOURCE_DIR}/libs/CircularBuffer)
 ##########################################################################
 # testing functions w/o source files - gets FATAL_ERROR
 ##########################################################################
 add_avr_executable(blink main.c)
-avr_target_link_libraries(blink PUBLIC USART_LIB)
+avr_target_link_libraries(blink PUBLIC USART_LIB I2C_LIB CIRCBUFFER_LIB)
 ##########################################################################
 # use default documentation target
 ##########################################################################
